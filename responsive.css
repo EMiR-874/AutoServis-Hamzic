@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .ser-con-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+@media (max-width: 800px) {
+  .contact-inputs {
+    width: 80vw;
+  }
+
+  .main-contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
